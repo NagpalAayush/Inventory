@@ -14,13 +14,13 @@ const API_BASE_URL = "http://localhost:5000/api";
 const features = [
   {
     icon: Box,
-    title: "AI-Powered Tracking",
+    title: "Easy Tracking",
     description: "Monitor stock levels with automated, AI-driven insights."
   },
   {
     icon: BarChart,
-    title: "Smart Analytics",
-    description: "Leverage data analytics for optimized inventory forecasting."
+    title: "Simple & Intuitive Interface",
+    description: "Manage products, sales, and stock updates effortlessly with a clean and user-friendly design."
   },
   {
     icon: Settings,
@@ -136,7 +136,7 @@ export default function HomePage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 px-10 grid md:grid-cols-3 gap-8">
+      <section className="py-16 px-10 grid md:grid-cols-3 gap-8" id="features">
         {features.map((feature, index) => (
           <motion.div
             key={index}

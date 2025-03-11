@@ -15,7 +15,7 @@ export default function Header() {
         <h1 className="text-2xl font-bold text-white">Inventory Pro</h1>
         <nav className="hidden md:flex space-x-6">
           <a href="#" className="text-gray-300 hover:text-white transition">Home</a>
-          <a href="#" className="text-gray-300 hover:text-white transition">Features</a>
+          <a href="#features" className="text-gray-300 hover:text-white transition">Features</a>
           <a href="#" className="text-gray-300 hover:text-white transition">Pricing</a>
           <a href="#" className="text-gray-300 hover:text-white transition">Contact</a>
         </nav>
