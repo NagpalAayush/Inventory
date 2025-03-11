@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Hide the up and down arrows (spinner) for number inputs */
+.custom-input::-webkit-outer-spin-button,
+.custom-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.custom-input {
+  -moz-appearance: textfield; /* Hide spinner in Firefox */
+}
+
+/* Custom styling for better UI */
+.custom-input {
+  width: 70px;
+  padding: 6px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.custom-input:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #fff;
+}
