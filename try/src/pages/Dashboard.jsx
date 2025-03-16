@@ -317,7 +317,7 @@ export default function Dashboard() {
                         )
                       }
                       className="w-10rounded-lg border border-gray-400 focus:border-blue-500 focus:outline-none text-gray-800 bg-gray-100 text-center custom-input"
-                      placeholder="Qty"
+                      placeholder="Qty Sold"
                       style={{padding : "3px" }}
                     />
 
